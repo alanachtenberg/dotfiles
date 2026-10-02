@@ -1,0 +1,43 @@
+# ==============================================================================
+# Global Git Configuration
+# ==============================================================================
+
+[init]
+  defaultBranch = main
+
+[pull]
+  rebase = true
+
+[push]
+  autoSetupRemote = true
+
+[core]
+  editor = micro
+  pager = delta
+  excludesfile = ~/.config/git/ignore
+
+[interactive]
+  diffFilter = delta --color-only
+
+[delta]
+  navigate = true
+  light = false
+  line-numbers = true
+  side-by-side = false
+
+[merge]
+  conflictstyle = zdiff3
+
+[diff]
+  colorMoved = default
+
+# ==============================================================================
+# Local Machine Identity & Overrides (Ignored by Git)
+# Configure your name and email on each machine in ~/.gitconfig.local:
+#   [user]
+#     name = Your Name
+#     email = you@example.com
+# ==============================================================================
+[include]
+  path = ~/.gitconfig.local
+

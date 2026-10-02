@@ -1,0 +1,34 @@
+# ==============================================================================
+# Ghostty Terminal Configuration
+# Documentation: https://ghostty.org/docs/config/reference
+# ==============================================================================
+# Note: Paste your custom Ghostty configuration from your other machine here.
+# This file is symlinked to ~/.config/ghostty/config on both macOS and Linux.
+
+# Font Settings
+font-family = "JetBrainsMono Nerd Font"
+# font-size = 13
+
+# Color Theme (supports automatic dark/light mode switching)
+# theme = dark:catppuccin-mocha,light:catppuccin-latte
+
+# Window Appearance
+# window-padding-x = 12
+# window-padding-y = 10
+# window-decoration = true
+# macos-titlebar-style = transparent
+
+scrollback-limit = 10_000_000
+
+background-opacity = 0.85
+background-blur = 2
+
+#Quick terminal
+quick-terminal-size = 100%, 100%
+quick-terminal-autohide = false
+quick-terminal-space-behavior = remain
+quick-terminal-screen = mouse
+keybind = global:ctrl+grave_accent=toggle_quick_terminal
+
+#ssh config
+shell-integration-features = ssh-env,ssh-terminfo

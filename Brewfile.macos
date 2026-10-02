@@ -1,0 +1,8 @@
+# ==============================================================================
+# macOS-Only Casks (GUI Applications)
+# Managed via Homebrew on macOS
+# ==============================================================================
+
+# Productivity & GUI Applications
+cask "jetbrains-toolbox"             # JetBrains IDE manager (IntelliJ, WebStorm, etc.)
+cask "ghostty"                       # Fast, cross-platform GPU terminal

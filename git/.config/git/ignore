@@ -1,0 +1,27 @@
+# ==============================================================================
+# Global Git Ignore Rules
+# Applies across all repositories on this machine
+# ==============================================================================
+
+# OS metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Machine-local dotfile overrides and private secrets
+*.local
+.zshrc.local
+.gitconfig.local
+.env.local
+.env.*.local
+
+# Editor temporary and recovery files
+*.swp
+*.swo
+*~
+*.orig
+.netrwhist
