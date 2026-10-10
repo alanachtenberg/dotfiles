@@ -16,6 +16,8 @@ Clean, automated configuration for macOS, Linux, and Dev Containers using **Home
 ## One-Command Setup
 
 > 🔄 **Idempotent Setup**: All installation scripts (`install-macos.sh`, `install-linux.sh`, `install.sh`, and `link-dotfiles.sh`) are fully idempotent. Re-running them at any time safely updates packages, restows symlinks, and refreshes runtimes without duplicates or errors.
+>
+> ⏱️ **Interactive Step Pauses**: Root installation scripts pause for 15 seconds before each subsequent step. You can press `Enter` to continue immediately, or press `Ctrl+C` to abort if an error or warning occurred in the previous step. To run non-interactively without pauses, set `PAUSE_TIMEOUT=0`.
 
 Clone the repository to `~/dotfiles`:
 ```bash
