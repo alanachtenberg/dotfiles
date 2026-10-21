@@ -27,6 +27,7 @@ brew "tldr"                    # Simplified, practical alternative to man pages
 brew "gh"                      # Official GitHub CLI
 brew "git-delta"               # Syntax-highlighting pager for git and diffs
 brew "lazygit"                 # Terminal UI for git operations
+brew "worktrunk"               # Git worktree management CLI for parallel workflows
 
 # ==============================================================================
 # Editor, Workspace & Monitoring
